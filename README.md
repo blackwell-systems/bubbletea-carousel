@@ -18,7 +18,7 @@ A peeking single-row card carousel for [Bubble Tea](https://github.com/charmbrac
 ## Installation
 
 ```bash
-go get github.com/blackwell-systems/bubbletea-components/carousel
+go get github.com/blackwell-systems/bubbletea-carousel
 ```
 
 ## Usage
@@ -80,7 +80,7 @@ package main
 import (
     "fmt"
 
-    "github.com/blackwell-systems/bubbletea-components/carousel"
+    "github.com/blackwell-systems/bubbletea-carousel"
     tea "github.com/charmbracelet/bubbletea"
 )
 
@@ -275,4 +275,4 @@ The built-in footer always shows navigation and selection hints. `ExtraFooter` l
 
 ## License
 
-See project root for license information.
+MIT License - see [LICENSE](LICENSE) for details.
